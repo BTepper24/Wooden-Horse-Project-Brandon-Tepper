@@ -1,0 +1,199 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<title>Little Bird Toys</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo|Open+Sans:300,400|Oswald:700">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="hero-image">
+  <div class="hero-text">
+    <h1>Little Bird Toys</h1>
+    <p>43 Main St, Toms River, NJ 08753 |
+Phone:
+(717) 123-1234 <br>
+Store Hours: <br>
+WEEKDAYS <br>
+7:00 AM to 4:30 PM <br>
+SATURDAY <br>
+10:00 AM to 2:00 PM <br>
+All socials (FB, Insta, Twitter, Snapchat) |
+ @LittleBirdToyCo <br>
+
+</p>
+  </div>
+</div>
+	<div class="outer-wrapper">
+		<div class="content-wrapper">
+      <section class="nav">
+     <ul>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#OurStory">Our Story</a></li>
+         <li><a href="#Toys">Toys</a></li>
+         <li><a href="#Feedback">Leave Feedback</a></li>
+       </ul>
+     </section>
+
+			<header>
+
+			</header>
+        <hr>
+        <p id="OurStory">
+          <h3>Our Story:</h3>
+          <center>
+Our handcrafted classic, wooden toys  are designed to bring out that slowness in your home. From Planes, trains, automobiles and boats, playsets, all of our wooden toys are designed to spark imagination. The going may be a little slower, but oh the things you’ll see along the way!
+Since 2018, Little Bird Toys has delighted families looking for quality children’s toys.  Our collection of heirloom quality products are built to stand the test of time and to be enjoyed from sibling to sibling and generation to generation.
+          </center>
+          <h3>Quality:</h3>
+          <center>
+            You won’t find plastic or batteries here.  Our handmade toys are carefully crafted from sustainable Baltic birch wood and are designed, manufactured, and tested in the U.S.A – right here in Toms River, NJ.   Each handcrafted item is made to heirloom quality, designed to not only withstand the wear of childhood, but to be strong enough to pass on from sibling to sibling and generation to generation.  Hold one of our wooden toys in your hand, You’ll feel the difference that our makers bring to each handcrafted piece.
+            All of our products meet or exceed Consumer Product Safety standards and are finished with toxin-free paints that meet CA-prop65.  Our toys undergo physical, mechanical, and fire-safety testing guided by ASTM standards.  And every piece we craft sustains our own in-house physical testing procedure to ensure unmatched durability and stability.
+          </center>
+          <h3>Sustainability:</h3>
+          <center>
+            Wood is an important part of who we are.  Early on we chose wood for its inherently durable qualities with the intention of making toys and furniture that could withstand the test of time – and stay out of the landfill.
+            Our wooden toys are designed to withstand the wear of play and to be safely enjoyed from generation to generation.
+            Our process of sourcing, manufacturing, and shipping only within the U.S. allows us to support our national economy and reduce the often-hefty carbon emissions that come with international trade and shipping.
+          </center>
+        <p>
+        <hr>
+			<main role="main">
+				<div class="first step">
+					<h2 id="Toys">1. Choose a Toy</h2>
+					<select name="states" id="states">
+						<option selected disabled value="empty-state">All Toys</option>
+						<option value="block1">Blocks:</option>
+						<option value="block2">Blocks 2</option>
+						<option value="block3">Blocks 3</option>
+						<option value="block4">Blocks 4</option>
+						<option value="block5">Blocks 5</option>
+						<option value="boat1">Boat 1</option>
+						<option value="boat2">Boat 2</option>
+						<option value="car1">Car 1</option>
+						<option value="car2">Car 2</option>
+						<option value="car3">Car 3</option>
+						<option value="car4">Car 4</option>
+						<option value="plane1">Plane 1</option>
+						<option value="plane2">Plane 2</option>
+						<option value="plane3">Plane 3</option>
+						<option value="train1">Train 1</option>
+						<option value="train2">Train 2</option>
+						<option value="train3">Train 3</option>
+						<option value="train4">Train 4</option>
+						<option value="train5">Train 5</option>
+						<option value="train6">Train 6</option>
+						<option value="train7">Train 7</option>
+
+					</select>
+				</div>
+				<div class="second step">
+					<h2>2. Enjoy!</h2>
+					<div id="postcard">
+						<p id="greeting">To View a Toy:</p>
+						<p id="state-heading">Choose an option!</p>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<main role="main">
+	<div class="contentWrapper" id="cool">
+		<form action="" method="post" name="feedbackForm" id="feedbackForm">
+			<fieldset id="feedback">
+				<legend id="Feedback">Have any feedback? Leave it down below!</legend>
+
+					<label for="nameField">Name:</label>
+					<input id="nameField" name="nameField" type="text" class="textfield" value="First and Last Name" onFocus="clearName();" onBlur="resetName();">
+
+					<label for="emailField">Email:</label>
+					<input id="emailField" name="emailField" type="text" class="textfield" value="example: awesome@gmail.com" onFocus="clearEmail();" onBlur="resetEmail();">
+
+					<label for="messageField">Message:</label>
+					<input id="messageField" name="messageField" type="text" class="textfield" value="Message Here!" onFocus="clearMessage();" onBlur="resetMessage();">
+
+					<input id="submit" type="submit" name="submit" value="Submit!">
+
+			</fieldset>
+		</form>
+	</div>
+</main>
+	<footer>
+		<p>
+			43 Main St, Toms River, NJ 08753 |
+	Phone:
+	(717) 123-1234 <br>
+	All socials (FB, Insta, Twitter, Snapchat) |
+	 @LittleBirdToyCo
+</p>
+		<p>Made in Web Design and by Brandon Tepper and Owen Ambrose</p>
+  <br>
+    <center>
+      <img class="LittleBirdLogo" src="https://i.imgur.com/IUM9ogh.png">
+    <center>
+  <br>
+    <p>Copyright © Little Bird Toys</p>
+	</footer>
+	<script>
+		var states = document.getElementById('states');
+		states.onchange = function() {
+			// console.log('state index: ' + states.selectedIndex);
+			// console.log('state name: ' + states.options[states.selectedIndex].text);
+			// console.log('img/' + states.value + '@2x.jpg');
+			document.getElementById('postcard').style.backgroundImage = 'url(img/' + states.value + '.jpg)';
+			document.getElementById('greeting').innerHTML = 'You are viewing';
+			document.getElementById('state-heading').innerHTML = states.options[states.selectedIndex].text;
+		}
+
+// Form field stuff //
+
+		function clearName () {
+			if (document.getElementById('nameField').value == 'First and Last Name'){
+				document.getElementById('nameField').value= ''
+			}
+		}
+		//Clears default text insied the number box and leaves user imput
+		function clearMessage () {
+			if (document.getElementById('messageField').value == 'Message Here!'){
+				document.getElementById('messageField').value= ''
+			}
+		}
+		//Bring default text back for name field
+		function resetName () {
+			if (document.getElementById('nameField').value == ''){
+				document.getElementById('nameField').value= 'First and Last Name'
+			}
+		}
+		//Bring default text back for number field
+		function resetMessage () {
+			if (document.getElementById('messageField').value == ''){
+				document.getElementById('messageField').value= 'Message Here!'
+			}
+		}
+		//Clears default text insied the email box and leaves user imput
+		function clearEmail () {
+			if (document.getElementById('emailField').value == 'example: awesome@gmail.com'){
+				document.getElementById('emailField').value= ''
+			}
+		}
+		//Bring default text back for email field
+		function resetEmail () {
+			if (document.getElementById('emailField').value == ''){
+				document.getElementById('emailField').value= 'example: awesome@gmail.com'
+			}
+		}
+	</script>
+</body>
+</html>
